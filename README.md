@@ -32,7 +32,7 @@ This Python script provides a visual and statistical tool for monitoring wastewa
 3. **Run the Script:** Execute the Python script from your terminal:
 
    ```bash
-   python ewma_wastewater_monitoring.py  # Replace with your actual script name if different
+   python ewma_wastewater_monitoring.py  
 
 4. **Interactive Chart:** The script will open an interactive Plotly chart in your web browser. Explore the data by hovering over points to see specific values and trends.
 
