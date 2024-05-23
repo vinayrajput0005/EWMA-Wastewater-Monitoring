@@ -57,8 +57,8 @@ fig.update_layout(
     yaxis=dict(showline=True, linewidth=1, linecolor='black'),
     
     # Remove background colors
-    plot_bgcolor='rgba(0,0,0,0)',   
-    paper_bgcolor='rgba(0,0,0,0)'   
+    plot_bgcolor='white',   
+    paper_bgcolor='white'   
 )
 
 fig.show()
