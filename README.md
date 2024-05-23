@@ -56,3 +56,7 @@ This Python script provides a visual and statistical tool for monitoring wastewa
 
 Contributions are welcome! Please feel free to open issues or submit pull requests to improve this script.
 
+## PLot output
+![image](https://github.com/vinayrajput0005/EWMA-Wastewater-Monitoring/assets/54147406/81923fed-c966-4c40-9566-ca47ea4cdb20)
+
+
