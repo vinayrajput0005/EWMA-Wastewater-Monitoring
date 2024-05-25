@@ -33,17 +33,17 @@ df_agg['Wastewater_UCL'], df_agg['Wastewater_LCL'] = calculate_control_limits(df
 # Create Interactive Plot with Plotly
 fig = go.Figure()
 
-# Add Traces (Lines and Control Limits) for Wastewater Only - Using Aggregated Data
+# Add Traces (Lines and Control Limits) 
 fig.add_trace(go.Scatter(x=df_agg['Date'], y=df_agg['Wastewater_Viral_Load'], mode='markers+lines', name='Avg Wastewater Viral Load', line=dict(width=1)))
 fig.add_trace(go.Scatter(x=df_agg['Date'], y=df_agg['EWMA_Wastewater'], mode='lines', name='EWMA Wastewater', line=dict(width=2)))
 
-# Add Straight Horizontal Lines for Control Limits (Wastewater Only)
+# Add Straight Horizontal Lines for Control Limits
 fig.add_shape(type="line", x0=df_agg['Date'].min(), y0=df_agg['Wastewater_UCL'].mean(), x1=df_agg['Date'].max(), y1=df_agg['Wastewater_UCL'].mean(),
               line=dict(color="Red", width=1, dash="dash"), name='Wastewater UCL')
 fig.add_shape(type="line", x0=df_agg['Date'].min(), y0=df_agg['Wastewater_LCL'].mean(), x1=df_agg['Date'].max(), y1=df_agg['Wastewater_LCL'].mean(),
               line=dict(color="Red", width=1, dash="dash"), name='Wastewater LCL')
 
-# Customize Layout (increased plot size)
+# Customize Layout 
 fig.update_layout(
     title='', 
     xaxis_title='Date',
@@ -63,6 +63,6 @@ fig.update_layout(
 
 fig.show()
 
-pio.write_image(fig, 'wastewater_viral_load_highres.png', scale=5)  # Adjust scale as needed
+pio.write_image(fig, 'wastewater_viral_load_highres.png', scale=5)  
 # You can also use .jpeg, .svg, .pdf, etc. for different formats
 
