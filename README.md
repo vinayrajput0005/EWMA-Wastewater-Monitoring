@@ -59,5 +59,14 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 ## PLot output
 ![image](https://github.com/vinayrajput0005/EWMA-Wastewater-Monitoring/assets/54147406/05152fea-879c-4f74-841a-4188490c3aec)
 
+## Citation
+
+If you use this repository in your research or projects, please cite the following publication:
+
+Rajput, Vinay, Das, R., Pramanik, R., Nannaware, K., Yanamandra, S., Taji, N., Rajput, Vishal, Rajkhowa, R., Pacharne, P., Shah, P., Gogate, N., Sangwar, P., Bhalerao, A., Jain, N., Kamble, S., Dastager, S., Shashidhara, L.S., Karyakarte, R., Dharne, M., 2024. Early detection of KP.2 SARS-CoV-2 variant using wastewater-based genomic surveillance in Pune, Maharashtra, India. Journal of Travel Medicine. https://doi.org/10.1093/jtm/taae097
+
+Rajput, V., Pramanik, R., Malik, V., Yadav, R., Samson, R., Kadam, P., Bhalerao, U., Tupekar, M., Deshpande, D., Shah, P., Shashidhara, L.S., Boargaonkar, R., Patil, D., Kale, S., Bhalerao, A., Jain, N., Kamble, S., Dastager, S., Karmodiya, K., Dharne, M., 2023. Genomic surveillance reveals early detection and transition of delta to omicron lineages of SARS-CoV-2 variants in wastewater treatment plants of Pune, India. Environmental Science and Pollution Research 30, 118976–118988. https://doi.org/10.1007/s11356-023-30709-z
+
+
 
 
