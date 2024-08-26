@@ -61,7 +61,7 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 
 ## Citation
 
-If you use this repository in your research or projects, please cite the following publication:
+If you use this repository in your research or projects, please cite the following publications:
 
 Rajput, Vinay, Das, R., Pramanik, R., Nannaware, K., Yanamandra, S., Taji, N., Rajput, Vishal, Rajkhowa, R., Pacharne, P., Shah, P., Gogate, N., Sangwar, P., Bhalerao, A., Jain, N., Kamble, S., Dastager, S., Shashidhara, L.S., Karyakarte, R., Dharne, M., 2024. Early detection of KP.2 SARS-CoV-2 variant using wastewater-based genomic surveillance in Pune, Maharashtra, India. Journal of Travel Medicine. https://doi.org/10.1093/jtm/taae097
 
